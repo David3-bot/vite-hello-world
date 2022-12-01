@@ -1,8 +1,19 @@
 <template>
-    <h1>La mia prima App con Vite!</h1>
-
-    <div>
-        <img class="Jumbotron" src="/Users/Boolean/Progetti/vite-hello-world/public/img/ee5fe132f18c1c63f57af16616104560.jpg">
+    <div class="paperino">
+        <h1>Martin Garrix, Animals, si vola</h1>
+        <AppHero></AppHero>
     </div>
+
 </template>
-<script></script>
+<script>
+import AppHero from './AppHero.vue'
+export default {
+    components: { AppHero }
+}
+</script>
+<style>
+.paperino {
+    width: 100vh;
+    height: 100vh;
+}
+</style>
